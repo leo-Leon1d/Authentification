@@ -13,6 +13,11 @@
 		BF2AD985289C06C50030ABEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF2AD983289C06C50030ABEE /* Main.storyboard */; };
 		BF2AD987289C06C90030ABEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF2AD986289C06C90030ABEE /* Assets.xcassets */; };
 		BF2AD98A289C06C90030ABEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF2AD988289C06C90030ABEE /* LaunchScreen.storyboard */; };
+		BF2AD994289E9BD20030ABEE /* EnterCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2AD993289E9BD20030ABEE /* EnterCodeVC.swift */; };
+		BF2AD99728A3D4970030ABEE /* ScrollViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2AD99628A3D4970030ABEE /* ScrollViewVC.swift */; };
+		BF2AD99A28A3D7700030ABEE /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2AD99928A3D7700030ABEE /* HeaderView.swift */; };
+		BF5E440F28E98EF700150B02 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E440E28E98EF700150B02 /* TopView.swift */; };
+		BF5E441228E9986200150B02 /* PersonalCabinetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E441128E9986200150B02 /* PersonalCabinetVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		BF2AD986289C06C90030ABEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF2AD989289C06C90030ABEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF2AD98B289C06C90030ABEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF2AD993289E9BD20030ABEE /* EnterCodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterCodeVC.swift; sourceTree = "<group>"; };
+		BF2AD99628A3D4970030ABEE /* ScrollViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewVC.swift; sourceTree = "<group>"; };
+		BF2AD99928A3D7700030ABEE /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		BF5E440E28E98EF700150B02 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		BF5E441128E9986200150B02 /* PersonalCabinetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalCabinetVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +68,16 @@
 			children = (
 				BF2AD97D289C06C50030ABEE /* AppDelegate.swift */,
 				BF2AD97F289C06C50030ABEE /* SceneDelegate.swift */,
-				BF2AD981289C06C50030ABEE /* ViewController.swift */,
 				BF2AD983289C06C50030ABEE /* Main.storyboard */,
-				BF2AD986289C06C90030ABEE /* Assets.xcassets */,
 				BF2AD988289C06C90030ABEE /* LaunchScreen.storyboard */,
 				BF2AD98B289C06C90030ABEE /* Info.plist */,
+				BF2AD986289C06C90030ABEE /* Assets.xcassets */,
+				BF2AD981289C06C50030ABEE /* ViewController.swift */,
+				BF2AD993289E9BD20030ABEE /* EnterCodeVC.swift */,
+				BF2AD99628A3D4970030ABEE /* ScrollViewVC.swift */,
+				BF2AD99928A3D7700030ABEE /* HeaderView.swift */,
+				BF5E440E28E98EF700150B02 /* TopView.swift */,
+				BF5E441128E9986200150B02 /* PersonalCabinetVC.swift */,
 			);
 			path = Authentification;
 			sourceTree = "<group>";
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF5E440F28E98EF700150B02 /* TopView.swift in Sources */,
 				BF2AD982289C06C50030ABEE /* ViewController.swift in Sources */,
+				BF2AD99A28A3D7700030ABEE /* HeaderView.swift in Sources */,
 				BF2AD97E289C06C50030ABEE /* AppDelegate.swift in Sources */,
+				BF2AD994289E9BD20030ABEE /* EnterCodeVC.swift in Sources */,
+				BF5E441228E9986200150B02 /* PersonalCabinetVC.swift in Sources */,
+				BF2AD99728A3D4970030ABEE /* ScrollViewVC.swift in Sources */,
 				BF2AD980289C06C50030ABEE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
